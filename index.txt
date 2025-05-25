@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hospoda sezemakzs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Hospoda sezemakzs</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Domů</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">O nás</a></li>
+          <li><a href="#gallery">Fotky</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Vítejte v hospodě sezemakzs!</h2>
+      <p>Tradiční česká hospoda v srdci Sezemic. Domácí kuchyně, poctivé pivo, pohodová atmosféra.</p>
+    </div>
+  </section>
+
+  <section id="menu" class="section">
+    <div class="container">
+      <h2>Jídelní lístek</h2>
+      <ul class="menu-list">
+        <li>Guláš s knedlíkem – 139 Kč</li>
+        <li>Smažený sýr s hranolkami – 129 Kč</li>
+        <li>Vepřový řízek s bramborem – 149 Kč</li>
+        <li>Točená Plzeň 12° – 49 Kč</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="about" class="section light">
+    <div class="container">
+      <h2>O nás</h2>
+      <p>Jsme lokální hospoda zaměřená na domácí kuchyni a kvalitní české pivo. Přijďte posedět s přáteli, nebo si vychutnat oběd ve stylovém prostředí.</p>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2>Fotky</h2>
+      <div class="gallery">
+        <img src="https://images.pexels.com/photos/687824/pexels-photo-687824.jpeg" alt="Pivo">
+        <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg" alt="Jídlo">
+        <img src="https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg" alt="Hospoda">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section light">
+    <div class="container">
+      <h2>Kontakt</h2>
+      <p><strong>Adresa:</strong> Sezemice 53304</p>
+      <p><strong>Telefon:</strong> +420 777 123 456</p>
+      <p><strong>Email:</strong> info@sezemakzs.cz</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Hospoda sezemakzs</p>
+    </div>
+  </footer>
+</body>
+</html>
